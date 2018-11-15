@@ -1,0 +1,235 @@
+2018-11-15 17:44:40,257 INFO  com.bankguru.payment.Payment_01_MainWorkflow - ----------OPEN BROWSER-----------
+2018-11-15 17:44:50,355 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Pre-condition Step 01 - Get login page URL
+2018-11-15 17:44:50,366 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Pre-condition Step 02 - Click Here link
+2018-11-15 17:44:52,196 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Pre-condition Step 03 - Input email
+2018-11-15 17:44:52,602 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Pre-condition Step 04 - Click Submit button
+2018-11-15 17:44:56,884 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 01 - Open New Customer Page
+2018-11-15 17:44:57,725 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 02 - Input Customer Name
+2018-11-15 17:44:58,082 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 03 - Input Date Of Birth
+2018-11-15 17:44:58,267 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 04 - Input Address
+2018-11-15 17:44:58,726 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 05 - Input City
+2018-11-15 17:44:58,927 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 06 - Input State
+2018-11-15 17:44:59,066 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 07 - Input PIN
+2018-11-15 17:44:59,245 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 08 - Input Mobile Number
+2018-11-15 17:44:59,406 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 09 - Input Email
+2018-11-15 17:44:59,908 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 10 - Input Password Customer
+2018-11-15 17:45:00,119 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 11 - Click Submit button
+2018-11-15 17:45:01,429 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_01 Step 12 - Verify Message Create Customer Success
+2018-11-15 17:45:03,195 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 01 - Input IdCustomer
+2018-11-15 17:45:03,393 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 02 - Click Submit To Edit Infor
+2018-11-15 17:45:04,633 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 03 - Input Address
+2018-11-15 17:45:05,244 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 04 - Input City
+2018-11-15 17:45:05,543 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 05 - Input State
+2018-11-15 17:45:05,749 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 06 - Input PIN
+2018-11-15 17:45:05,900 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 07 - Input Mobile
+2018-11-15 17:45:06,113 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 08 - Input Email
+2018-11-15 17:45:06,378 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 09 - Click Submit To Update
+2018-11-15 17:45:07,559 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_02 Step 10 - Verify Message Edit Customer Success
+2018-11-15 17:45:07,685 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 01 - Open New Account Page
+2018-11-15 17:45:08,241 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 02 - Input IdCustomer
+2018-11-15 17:45:08,399 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 03 - Select Acount Type
+2018-11-15 17:45:08,509 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 04 - Input Deposit
+2018-11-15 17:45:08,948 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 05 - Click Submit
+2018-11-15 17:45:10,039 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 06 - Verify Message Edit Customer Success
+2018-11-15 17:45:10,095 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_03 Step 06 - Verify Deposit
+2018-11-15 17:45:10,160 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 01 - Open Deposit Page
+2018-11-15 17:45:10,927 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 02 - Input Account No
+2018-11-15 17:45:11,079 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 03 - Input Amount
+2018-11-15 17:45:11,293 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 04 - Input Description
+2018-11-15 17:45:11,614 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 05 - Click Submit
+2018-11-15 17:45:12,464 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 06 - Verify Message Deposit Success
+2018-11-15 17:45:12,561 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_04 Step 07 - Verify Message Current Balance
+2018-11-15 17:45:12,650 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 01 - Open WithDraw Page
+2018-11-15 17:45:13,630 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 02 - Input AccountNo
+2018-11-15 17:45:13,897 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 03 - Input Amount
+2018-11-15 17:45:14,176 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 04 - Input Description
+2018-11-15 17:45:14,477 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 05 - Click Submit
+2018-11-15 17:45:16,361 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 06 - Verify Message Withdraw Success
+2018-11-15 17:45:16,431 INFO  com.bankguru.payment.Payment_01_MainWorkflow - Payment_05 Step 07 - Verify Message Current Balance
+2018-11-15 17:45:17,779 INFO  com.bankguru.payment.Payment_01_MainWorkflow - ----------CLOSE BROWSER-----------
+2018-11-15 17:45:17,797 INFO  com.bankguru.customer.NewCustomer - ----------OPEN BROWSER-----------
+2018-11-15 17:45:26,769 INFO  com.bankguru.customer.NewCustomer - Pre-condition Step 01 - Get login page URL
+2018-11-15 17:45:26,782 INFO  com.bankguru.customer.NewCustomer - Pre-condition Step 02 - Click Here link
+2018-11-15 17:45:28,218 INFO  com.bankguru.customer.NewCustomer - Pre-condition Step 03 - Input email
+2018-11-15 17:45:28,759 INFO  com.bankguru.customer.NewCustomer - Pre-condition Step 04 - Click Submit button
+2018-11-15 17:45:32,825 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:33,868 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Button Tab Name Field
+2018-11-15 17:45:33,973 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Username Error
+2018-11-15 17:45:34,051 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:34,708 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Nummeric Name Field
+2018-11-15 17:45:34,927 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Username Error
+2018-11-15 17:45:35,019 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:35,755 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Special Character Name Field
+2018-11-15 17:45:36,043 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Username Error
+2018-11-15 17:45:36,119 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:36,479 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space Character Name Field
+2018-11-15 17:45:36,630 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Username Error
+2018-11-15 17:45:36,705 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:37,159 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Button Tab Addres sField
+2018-11-15 17:45:37,265 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Address Error
+2018-11-15 17:45:37,371 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:37,828 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space Address Field
+2018-11-15 17:45:37,924 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Address Error
+2018-11-15 17:45:37,998 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:38,289 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Button Tab City Field
+2018-11-15 17:45:38,378 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text City Error
+2018-11-15 17:45:38,454 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:38,812 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Nummeric City Field
+2018-11-15 17:45:38,947 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text City Error
+2018-11-15 17:45:39,153 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:39,747 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Special Character City Field
+2018-11-15 17:45:39,910 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text City Error
+2018-11-15 17:45:39,978 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:40,358 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space Address Field
+2018-11-15 17:45:40,459 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Address Error
+2018-11-15 17:45:40,545 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:40,889 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Tab State Field
+2018-11-15 17:45:40,985 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text State Error
+2018-11-15 17:45:41,057 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:41,429 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Nummeric State Field
+2018-11-15 17:45:41,577 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text State Error
+2018-11-15 17:45:41,770 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:42,145 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Special Character State Field
+2018-11-15 17:45:42,315 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text State Error
+2018-11-15 17:45:42,381 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:42,680 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space State Field
+2018-11-15 17:45:42,777 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text State Error
+2018-11-15 17:45:42,852 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:43,589 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Char Pin Field
+2018-11-15 17:45:43,741 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Pin Error
+2018-11-15 17:45:43,828 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:44,226 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Tab Pin Field
+2018-11-15 17:45:44,322 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Pin Error
+2018-11-15 17:45:44,392 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:44,957 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Digit
+2018-11-15 17:45:45,157 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Pin Error
+2018-11-15 17:45:46,688 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:47,196 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Special Character Pin Field
+2018-11-15 17:45:47,381 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Pin Error
+2018-11-15 17:45:50,910 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:52,599 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space Pin Field
+2018-11-15 17:45:52,687 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Pin Error
+2018-11-15 17:45:52,772 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:53,092 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Blank Space Pin Field
+2018-11-15 17:45:54,214 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Pin Error
+2018-11-15 17:45:54,279 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:54,959 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Tab Telephone Field
+2018-11-15 17:45:55,097 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Telephone Error
+2018-11-15 17:45:55,199 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:55,919 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space TelePhone Field
+2018-11-15 17:45:56,027 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Telephone Error
+2018-11-15 17:45:56,123 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:56,794 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Blank Space Telephone Field
+2018-11-15 17:45:56,970 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Telephone Error
+2018-11-15 17:45:57,052 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:57,920 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Special Character TelePhone Field
+2018-11-15 17:45:58,076 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Telephone Error
+2018-11-15 17:45:58,149 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:58,778 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Emaile Field
+2018-11-15 17:45:58,896 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Email Error
+2018-11-15 17:45:58,986 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:45:59,281 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Enter Incorrect Email
+2018-11-15 17:45:59,512 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Email Error
+2018-11-15 17:45:59,663 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 01 - Open New Customer Page
+2018-11-15 17:46:00,025 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 02 - Press Space Email Field
+2018-11-15 17:46:00,114 INFO  com.bankguru.customer.NewCustomer - New Customer_01 Step 03 - Verify Text Email Error
+2018-11-15 17:46:01,340 INFO  com.bankguru.customer.NewCustomer - ----------CLOSE BROWSER-----------
+2018-11-15 17:46:01,342 INFO  com.bankguru.customer.EditCustomer - ----------OPEN BROWSER-----------
+2018-11-15 17:46:10,672 INFO  com.bankguru.customer.EditCustomer - Pre-condition Step 01 - Get login page URL
+2018-11-15 17:46:10,696 INFO  com.bankguru.customer.EditCustomer - Pre-condition Step 02 - Click Here link
+2018-11-15 17:46:12,288 INFO  com.bankguru.customer.EditCustomer - Pre-condition Step 03 - Input email
+2018-11-15 17:46:12,719 INFO  com.bankguru.customer.EditCustomer - Pre-condition Step 04 - Click Submit button
+2018-11-15 17:46:20,393 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:21,528 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Press Tab CustomerId Field
+2018-11-15 17:46:21,626 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Verify Text Error CustomerID
+2018-11-15 17:46:21,704 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:22,772 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Enter Nummeric CustomerId Field
+2018-11-15 17:46:22,993 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Verify Text Error CustomerID
+2018-11-15 17:46:23,268 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:24,325 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Enter Special Character CustomerId Field
+2018-11-15 17:46:24,525 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Verify Text Error CustomerID
+2018-11-15 17:46:24,595 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:25,377 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:25,514 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:26,318 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Verify Navigate Edit Customer
+2018-11-15 17:46:26,329 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:26,845 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:27,025 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:28,044 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Tab Addres sField
+2018-11-15 17:46:28,178 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Address Error
+2018-11-15 17:46:28,256 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:29,073 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:29,209 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:29,940 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Tab City Field
+2018-11-15 17:46:30,062 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text City Error
+2018-11-15 17:46:30,138 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:30,662 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:30,790 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:31,907 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Nummeric City Field
+2018-11-15 17:46:32,070 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text City Error
+2018-11-15 17:46:32,129 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:32,823 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:32,958 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:33,751 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Special Character City Field
+2018-11-15 17:46:33,908 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text City Error
+2018-11-15 17:46:33,970 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:34,658 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:34,805 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:35,525 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Tab State Field
+2018-11-15 17:46:35,658 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text State Error
+2018-11-15 17:46:35,723 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:36,353 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:36,493 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:37,457 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Nummeric State Field
+2018-11-15 17:46:37,596 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text State Error
+2018-11-15 17:46:37,664 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:38,183 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:38,310 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:39,185 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Special Character State Field
+2018-11-15 17:46:39,328 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text State Error
+2018-11-15 17:46:39,404 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:39,978 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:40,118 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:40,843 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Char Pin Field
+2018-11-15 17:46:41,019 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Pin Error
+2018-11-15 17:46:41,088 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:41,672 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:41,819 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:42,714 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Tab Pin Field
+2018-11-15 17:46:42,846 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Pin Error
+2018-11-15 17:46:42,910 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:43,488 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:43,654 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:44,540 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Digit
+2018-11-15 17:46:44,696 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Pin Error
+2018-11-15 17:46:44,794 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:45,410 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:45,561 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:46,343 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Special Character Pin Field
+2018-11-15 17:46:46,477 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Pin Error
+2018-11-15 17:46:46,573 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:47,198 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:47,343 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:48,093 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Tab Telephone Field
+2018-11-15 17:46:48,492 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Telephone Error
+2018-11-15 17:46:48,560 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:49,107 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:49,239 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:49,993 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Special Character Telephone Field
+2018-11-15 17:46:50,191 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Telephone Error
+2018-11-15 17:46:50,267 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:50,778 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:50,943 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:51,719 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Tab Email Field
+2018-11-15 17:46:51,839 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Email Error
+2018-11-15 17:46:52,153 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:52,769 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:52,903 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:53,845 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Enter Invalid Email
+2018-11-15 17:46:54,022 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Email Error
+2018-11-15 17:46:54,086 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 01 - Open Edit Customer Page
+2018-11-15 17:46:54,761 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 02 - Input IdCustomer
+2018-11-15 17:46:54,915 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 03 - Click Submit To EditInfor
+2018-11-15 17:46:56,019 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 04 - Press Space Email Field
+2018-11-15 17:46:56,150 INFO  com.bankguru.customer.EditCustomer - Edit Customer_01 Step 05 - Verify Text Email Error
+2018-11-15 17:46:57,358 INFO  com.bankguru.customer.EditCustomer - ----------CLOSE BROWSER-----------
