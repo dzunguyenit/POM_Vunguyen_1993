@@ -61,10 +61,10 @@ public class AbstractTest {
 		return new Gson().fromJson(json, AbstractObJectJson.class);
 	}
 
-	@SuppressWarnings("resource")
-	public static String readFile(String filename) {
+	public String readFile(String filename) {
 		String result = "";
 		try {
+			@SuppressWarnings("resource")
 			BufferedReader br = new BufferedReader(new FileReader(filename));
 			StringBuilder sb = new StringBuilder();
 			String line = br.readLine();
