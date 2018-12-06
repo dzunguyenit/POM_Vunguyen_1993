@@ -91,216 +91,108 @@ public class NewCustomer {
 		return nummericValueName;
 	}
 
-	public void setNummericValueName(String nummericValueName) {
-		this.nummericValueName = nummericValueName;
-	}
-
 	public String getSpecialCharacterName() {
 		return specialCharacterName;
-	}
-
-	public void setSpecialCharacterName(String specialCharacterName) {
-		this.specialCharacterName = specialCharacterName;
 	}
 
 	public String getNummericValueCity() {
 		return nummericValueCity;
 	}
 
-	public void setNummericValueCity(String nummericValueCity) {
-		this.nummericValueCity = nummericValueCity;
-	}
-
 	public String getSpecialCharacterCity() {
 		return specialCharacterCity;
-	}
-
-	public void setSpecialCharacterCity(String specialCharacterCity) {
-		this.specialCharacterCity = specialCharacterCity;
 	}
 
 	public String getNummericValueState() {
 		return nummericValueState;
 	}
 
-	public void setNummericValueState(String nummericValueState) {
-		this.nummericValueState = nummericValueState;
-	}
-
 	public String getSpecialCharacterState() {
 		return specialCharacterState;
-	}
-
-	public void setSpecialCharacterState(String specialCharacterState) {
-		this.specialCharacterState = specialCharacterState;
 	}
 
 	public String getCharValueState() {
 		return charValueState;
 	}
 
-	public void setCharValueState(String charValueState) {
-		this.charValueState = charValueState;
-	}
-
 	public String getDigit() {
 		return digit;
-	}
-
-	public void setDigit(String digit) {
-		this.digit = digit;
 	}
 
 	public String getSpecialCharacterPin() {
 		return specialCharacterPin;
 	}
 
-	public void setSpecialCharacterPin(String specialCharacterPin) {
-		this.specialCharacterPin = specialCharacterPin;
-	}
-
 	public String getPinBlankSpace() {
 		return pinBlankSpace;
-	}
-
-	public void setPinBlankSpace(String pinBlankSpace) {
-		this.pinBlankSpace = pinBlankSpace;
 	}
 
 	public String getSpecialCharacterTelephone() {
 		return specialCharacterTelephone;
 	}
 
-	public void setSpecialCharacterTelephone(String specialCharacterTelephone) {
-		this.specialCharacterTelephone = specialCharacterTelephone;
-	}
-
 	public String getTelephoneBlankSpace() {
 		return telephoneBlankSpace;
-	}
-
-	public void setTelephoneBlankSpace(String telephoneBlankSpace) {
-		this.telephoneBlankSpace = telephoneBlankSpace;
 	}
 
 	public String getIncorrectEmail() {
 		return incorrectEmail;
 	}
 
-	public void setIncorrectEmail(String incorrectEmail) {
-		this.incorrectEmail = incorrectEmail;
-	}
-
 	public String getNameCannotEmptyMsg() {
 		return nameCannotEmptyMsg;
-	}
-
-	public void setNameCannotEmptyMsg(String nameCannotEmptyMsg) {
-		this.nameCannotEmptyMsg = nameCannotEmptyMsg;
 	}
 
 	public String getCannotBeNumbericMsg() {
 		return cannotBeNumbericMsg;
 	}
 
-	public void setCannotBeNumbericMsg(String cannotBeNumbericMsg) {
-		this.cannotBeNumbericMsg = cannotBeNumbericMsg;
-	}
-
 	public String getCannotSpecialCharacterMsg() {
 		return cannotSpecialCharacterMsg;
-	}
-
-	public void setCannotSpecialCharacterMsg(String cannotSpecialCharacterMsg) {
-		this.cannotSpecialCharacterMsg = cannotSpecialCharacterMsg;
 	}
 
 	public String getFirstCharacterBlankSpaceMsg() {
 		return firstCharacterBlankSpaceMsg;
 	}
 
-	public void setFirstCharacterBlankSpaceMsg(String firstCharacterBlankSpaceMsg) {
-		this.firstCharacterBlankSpaceMsg = firstCharacterBlankSpaceMsg;
-	}
-
 	public String getMustBeNumbericMsg() {
 		return mustBeNumbericMsg;
-	}
-
-	public void setMustBeNumbericMsg(String mustBeNumbericMsg) {
-		this.mustBeNumbericMsg = mustBeNumbericMsg;
 	}
 
 	public String getNamemustBeNumbericMsg() {
 		return namemustBeNumbericMsg;
 	}
 
-	public void setNamemustBeNumbericMsg(String namemustBeNumbericMsg) {
-		this.namemustBeNumbericMsg = namemustBeNumbericMsg;
-	}
-
 	public String getCityCannotEmptyMsg() {
 		return cityCannotEmptyMsg;
-	}
-
-	public void setCityCannotEmptyMsg(String cityCannotEmptyMsg) {
-		this.cityCannotEmptyMsg = cityCannotEmptyMsg;
 	}
 
 	public String getAddressCannotEmptyMsg() {
 		return addressCannotEmptyMsg;
 	}
 
-	public void setAddressCannotEmptyMsg(String addressCannotEmptyMsg) {
-		this.addressCannotEmptyMsg = addressCannotEmptyMsg;
-	}
-
 	public String getStateCannotEmptyMsg() {
 		return stateCannotEmptyMsg;
-	}
-
-	public void setStateCannotEmptyMsg(String stateCannotEmptyMsg) {
-		this.stateCannotEmptyMsg = stateCannotEmptyMsg;
 	}
 
 	public String getPinCannotEmptyMsg() {
 		return pinCannotEmptyMsg;
 	}
 
-	public void setPinCannotEmptyMsg(String pinCannotEmptyMsg) {
-		this.pinCannotEmptyMsg = pinCannotEmptyMsg;
-	}
-
 	public String getPinMustHave6DigitsMsg() {
 		return pinMustHave6DigitsMsg;
-	}
-
-	public void setPinMustHave6DigitsMsg(String pinMustHave6DigitsMsg) {
-		this.pinMustHave6DigitsMsg = pinMustHave6DigitsMsg;
 	}
 
 	public String getTelephoneCannotEmptyMsg() {
 		return telephoneCannotEmptyMsg;
 	}
 
-	public void setTelephoneCannotEmptyMsg(String telephoneCannotEmptyMsg) {
-		this.telephoneCannotEmptyMsg = telephoneCannotEmptyMsg;
-	}
-
 	public String getEmailCannotEmptyMsg() {
 		return emailCannotEmptyMsg;
 	}
 
-	public void setEmailCannotEmptyMsg(String emailCannotEmptyMsg) {
-		this.emailCannotEmptyMsg = emailCannotEmptyMsg;
-	}
-
 	public String getEmailIncorrectFormatMsg() {
 		return emailIncorrectFormatMsg;
-	}
-
-	public void setEmailIncorrectFormatMsg(String emailIncorrectFormatMsg) {
-		this.emailIncorrectFormatMsg = emailIncorrectFormatMsg;
 	}
 
 }

@@ -15,7 +15,7 @@ public class AbstractObJectJson {
 	@Expose
 	private EditCustomer editCustomer;
 
-	public Payment getPayment() {
+	public Payment payment() {
 		return payment;
 	}
 
@@ -23,7 +23,7 @@ public class AbstractObJectJson {
 		this.payment = payment;
 	}
 
-	public NewCustomer getNewCustomer() {
+	public NewCustomer newCustomer() {
 		return newCustomer;
 	}
 
@@ -31,7 +31,7 @@ public class AbstractObJectJson {
 		this.newCustomer = newCustomer;
 	}
 
-	public EditCustomer getEditCustomer() {
+	public EditCustomer editCustomer() {
 		return editCustomer;
 	}
 

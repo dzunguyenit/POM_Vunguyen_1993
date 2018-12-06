@@ -34,64 +34,32 @@ public class Payment {
 		return customerName;
 	}
 
-	public void setCustomerName(String customerName) {
-		this.customerName = customerName;
-	}
-
 	public String getDateOfBirth() {
 		return dateOfBirth;
-	}
-
-	public void setDateOfBirth(String dateOfBirth) {
-		this.dateOfBirth = dateOfBirth;
 	}
 
 	public String getAddress() {
 		return address;
 	}
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
-
 	public String getCity() {
 		return city;
-	}
-
-	public void setCity(String city) {
-		this.city = city;
 	}
 
 	public String getState() {
 		return state;
 	}
 
-	public void setState(String state) {
-		this.state = state;
-	}
-
 	public String getPIN() {
 		return pIN;
-	}
-
-	public void setPIN(String pIN) {
-		this.pIN = pIN;
 	}
 
 	public String getMobileNumber() {
 		return mobileNumber;
 	}
 
-	public void setMobileNumber(String mobileNumber) {
-		this.mobileNumber = mobileNumber;
-	}
-
 	public String getPasswordCustomer() {
 		return passwordCustomer;
-	}
-
-	public void setPasswordCustomer(String passwordCustomer) {
-		this.passwordCustomer = passwordCustomer;
 	}
 
 }
