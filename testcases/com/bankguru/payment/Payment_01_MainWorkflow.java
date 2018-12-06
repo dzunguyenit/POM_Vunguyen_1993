@@ -39,16 +39,15 @@ public class Payment_01_MainWorkflow extends AbstractTest {
 	private WithDrawPage withDrawPage;
 	String pathData = "/Data/";
 	String userPath = System.getProperty("user.dir");
-	String pathDataJson = userPath.concat(pathData).concat("BankGuru.json");
 	// private FundTransferPage fundTransferPage;
 	// private BalanceEnquiryPage balanceEnquiryPage;
 	// private DeleteAccountPage deleteAccountPage;
 	// private DeleteCustomerPage deleteCustomerPage;
 
-	@Parameters({ "browser", "url", "version" })
+	@Parameters({ "browser", "url", "version", "dataJson" })
 	@BeforeClass
-	public void beforeClass(String browser, String url, String version) {
-		// PRE-CONDITION
+	public void beforeClass(String browser, String url, String version, String dataJson) {
+		String pathDataJson = userPath.concat(pathData).concat(dataJson);
 		jsonData = getDataJson(pathDataJson);
 		log.info("----------OPEN BROWSER-----------");
 		driver = openMultiBrowser(browser, url, version);

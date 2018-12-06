@@ -8,6 +8,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="url" value="http://demo.guru99.com/v4/" />
 		<parameter name="version" value="2.43" />
+		<parameter name="dataJson" value="BankGuru.json" />
 		<classes>
 	<class name="com.bankguru.payment.Payment_01_MainWorkflow" />
 	<class name="com.bankguru.customer.NewCustomer" />

@@ -29,11 +29,11 @@ public class EditCustomer extends AbstractTest {
 	AbstractObJectJson data;
 	String pathData = "/Data/";
 	String userPath = System.getProperty("user.dir");
-	String pathDataJson = userPath.concat(pathData).concat("BankGuru.json");
 
-	@Parameters({ "browser", "url", "version" })
+	@Parameters({ "browser", "url", "version", "dataJson" })
 	@BeforeClass
-	public void beforeClass(String browser, String url, String version) {
+	public void beforeClass(String browser, String url, String version, String dataJson) {
+		String pathDataJson = userPath.concat(pathData).concat(dataJson);
 		data = getDataJson(pathDataJson);
 		log.info("----------OPEN BROWSER-----------");
 		driver = openMultiBrowser(browser, url, version);
