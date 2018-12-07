@@ -72,200 +72,134 @@ public class PageFactory extends AbstractPage {
 	private static TVHome tVHome;
 
 	public static Cart getCartPage(WebDriver driver) {
-		if (cart == null)
-			return new Cart(driver);
-		return cart;
+		return (cart == null) ? new Cart(driver) : cart;
 	}
 
 	public static TVHome getTVHomePage(WebDriver driver) {
-		if (tVHome == null)
-			return new TVHome(driver);
-		return tVHome;
+		return (tVHome == null) ? new TVHome(driver) : tVHome;
 	}
 
 	public static DetailProduct getDetailProductPage(WebDriver driver) {
-		if (detailProduct == null)
-			return new DetailProduct(driver);
-		return detailProduct;
+		return (detailProduct == null) ? new DetailProduct(driver) : detailProduct;
 	}
 
 	public static AccountTVPage getAccountTVPage(WebDriver driver) {
-		if (accountTVPage == null)
-			return new AccountTVPage(driver);
-		return accountTVPage;
+		return (accountTVPage == null) ? new AccountTVPage(driver) : accountTVPage;
 	}
 
 	public static HomeMobile getHomeMobilePage(WebDriver driver) {
-		if (momeMobile == null)
-			return new HomeMobile(driver);
-		return momeMobile;
+		return (momeMobile == null) ? new HomeMobile(driver) : momeMobile;
 	}
 
 	public static LoginPage getLoginPage(WebDriver driver) {
-		if (loginPage == null)
-			return new LoginPage(driver);
-		return loginPage;
+		return (loginPage == null) ? new LoginPage(driver) : loginPage;
 	}
 
 	public static RegisterPage getRegisterPage(WebDriver driver) {
-		if (registerPage == null)
-			return new RegisterPage(driver);
-		return registerPage;
+		return (registerPage == null) ? new RegisterPage(driver) : registerPage;
 	}
 
 	public static HomePage getHomePage(WebDriver driver) {
-		if (homePage == null)
-			return new HomePage(driver);
-		return homePage;
+		return (homePage == null) ? new HomePage(driver) : homePage;
 	}
 
 	public static NewCustomerPage getNewCustomerPage(WebDriver driver) {
-		if (newCustomerPage == null)
-			return new NewCustomerPage(driver);
-		return newCustomerPage;
+		return (newCustomerPage == null) ? new NewCustomerPage(driver) : newCustomerPage;
 	}
 
 	public static EditCustomerPage getEditCustomerPage(WebDriver driver) {
-		if (editCustomerPage == null)
-			return new EditCustomerPage(driver);
-		return editCustomerPage;
+		return (editCustomerPage == null) ? new EditCustomerPage(driver) : editCustomerPage;
 	}
 
 	public static NewAccountPage getNewAccountPage(WebDriver driver) {
-		if (newAccountPage == null)
-			return new NewAccountPage(driver);
-		return newAccountPage;
+		return (newAccountPage == null) ? new NewAccountPage(driver) : newAccountPage;
 	}
 
 	public static DepositPage getDepositPage(WebDriver driver) {
-		if (depositPage == null)
-			return new DepositPage(driver);
-		return depositPage;
+		return (depositPage == null) ? new DepositPage(driver) : depositPage;
 	}
 
 	public static WithDrawPage getWithDrawPage(WebDriver driver) {
-		if (withDrawPage == null)
-			return new WithDrawPage(driver);
-		return withDrawPage;
+		return (withDrawPage == null) ? new WithDrawPage(driver) : withDrawPage;
 	}
 
 	public static FundTransferPage getFundTransferPage(WebDriver driver) {
-		if (fundTransferPage == null)
-			return new FundTransferPage(driver);
-		return fundTransferPage;
+		return (fundTransferPage == null) ? new FundTransferPage(driver) : fundTransferPage;
 	}
 
 	public static BalanceEnquiryPage getBalanceEnquiryPage(WebDriver driver) {
-		if (balanceEnquiryPage == null)
-			return new BalanceEnquiryPage(driver);
-		return balanceEnquiryPage;
+		return (balanceEnquiryPage == null) ? new BalanceEnquiryPage(driver) : balanceEnquiryPage;
 	}
 
 	public static DeleteAccountPage getDeleteAccountPage(WebDriver driver) {
-		if (deleteAccountPage == null)
-			return new DeleteAccountPage(driver);
-		return deleteAccountPage;
+		return (deleteAccountPage == null) ? new DeleteAccountPage(driver) : deleteAccountPage;
 	}
 
 	public static DeleteCustomerPage getDeleteCustomerPage(WebDriver driver) {
-		if (deleteCustomerPage == null)
-			return new DeleteCustomerPage(driver);
-		return deleteCustomerPage;
+		return (deleteCustomerPage == null) ? new DeleteCustomerPage(driver) : deleteCustomerPage;
 	}
 
 	public static HomeGuru99 getHomeGuru99(WebDriver driver) {
-		if (homeGuru99 == null)
-			return new HomeGuru99(driver);
-		return homeGuru99;
+		return (homeGuru99 == null) ? new HomeGuru99(driver) : homeGuru99;
 	}
 
 	public static LoginJoomlaPage getLoginJoomlaPage(WebDriver driver) {
-		if (loginJoomlaPage == null)
-			return new LoginJoomlaPage(driver);
-		return loginJoomlaPage;
+		return (loginJoomlaPage == null) ? new LoginJoomlaPage(driver) : loginJoomlaPage;
 	}
 
 	public static HomeSytner getHomeSytnerPage(WebDriver driver) {
-		if (homeSytner == null)
-			return new HomeSytner(driver);
-		return homeSytner;
+		return (homeSytner == null) ? new HomeSytner(driver) : homeSytner;
 	}
 
 	public static AboutUsSytner getAboutUsSytnerPage(WebDriver driver) {
-		if (aboutUsSytner == null)
-			return new AboutUsSytner(driver);
-		return aboutUsSytner;
+		return (aboutUsSytner == null) ? new AboutUsSytner(driver) : aboutUsSytner;
 	}
 
 	public static NewsSytner getNewsSytnerPage(WebDriver driver) {
-		if (newsSytner == null)
-			return new NewsSytner(driver);
-		return newsSytner;
+		return (newsSytner == null) ? new NewsSytner(driver) : newsSytner;
 	}
 
 	public static CustomerServiceSytner getCustomerServiceSytnerPage(WebDriver driver) {
-		if (customerServiceSytner == null)
-			return new CustomerServiceSytner(driver);
-		return customerServiceSytner;
+		return (customerServiceSytner == null) ? new CustomerServiceSytner(driver) : customerServiceSytner;
 	}
 
 	public static CareerSytner getCareerSytnerPage(WebDriver driver) {
-		if (careerSytner == null)
-			return new CareerSytner(driver);
-		return careerSytner;
+		return (careerSytner == null) ? new CareerSytner(driver) : careerSytner;
 	}
 
 	public static FinanceSytner getFinanceSytnerPage(WebDriver driver) {
-		if (financeSytner == null)
-			return new FinanceSytner(driver);
-		return financeSytner;
+		return (financeSytner == null) ? new FinanceSytner(driver) : financeSytner;
 	}
 
 	public static SavedVehicleSytner getSavedVehicleSytnerPage(WebDriver driver) {
-		if (savedVehicleSytner == null)
-			return new SavedVehicleSytner(driver);
-		return savedVehicleSytner;
+		return (savedVehicleSytner == null) ? new SavedVehicleSytner(driver) : savedVehicleSytner;
 	}
 
 	public static UsedCarSearchSytner getUsedCarSearchSytnerPage(WebDriver driver) {
-		if (usedCarSearchSytner == null)
-			return new UsedCarSearchSytner(driver);
-		return usedCarSearchSytner;
+		return (usedCarSearchSytner == null) ? new UsedCarSearchSytner(driver) : usedCarSearchSytner;
 	}
 
 	public static NewCarSytner getNewCarSytnerPage(WebDriver driver) {
-		if (newCarSytner == null)
-			return new NewCarSytner(driver);
-		return newCarSytner;
+		return (newCarSytner == null) ? new NewCarSytner(driver) : newCarSytner;
 	}
 
 	public static CarMaintenanceSytner getCarMaintenanceSytnerPage(WebDriver driver) {
-		if (carMaintenanceSytner == null)
-			return new CarMaintenanceSytner(driver);
-		return carMaintenanceSytner;
+		return (carMaintenanceSytner == null) ? new CarMaintenanceSytner(driver) : carMaintenanceSytner;
 	}
 
 	public static PromotionsSytner getPromotionsSytnerPage(WebDriver driver) {
-		if (promotionsSytner == null)
-			return new PromotionsSytner(driver);
-		return promotionsSytner;
+		return (promotionsSytner == null) ? new PromotionsSytner(driver) : promotionsSytner;
 	}
 
 	public static BusinessUsersSytner getBusinessUsersSytnerPage(WebDriver driver) {
-		if (businessUsersSytner == null)
-			return new BusinessUsersSytner(driver);
-		return businessUsersSytner;
+		return (businessUsersSytner == null) ? new BusinessUsersSytner(driver) : businessUsersSytner;
 	}
 
 	public static SellYourCarSytner getSellYourCarSytnerPage(WebDriver driver) {
-		if (sellYourCarSytner == null)
-			return new SellYourCarSytner(driver);
-		return sellYourCarSytner;
+		return (sellYourCarSytner == null) ? new SellYourCarSytner(driver) : sellYourCarSytner;
 	}
 
 	public static DealerLocatorSytner getDealerLocatorSytnerPage(WebDriver driver) {
-		if (dealerLocatorSytner == null)
-			return new DealerLocatorSytner(driver);
-		return dealerLocatorSytner;
+		return (dealerLocatorSytner == null) ? new DealerLocatorSytner(driver) : dealerLocatorSytner;
 	}
 }
