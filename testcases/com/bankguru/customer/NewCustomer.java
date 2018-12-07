@@ -1,5 +1,6 @@
 package com.bankguru.customer;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -15,9 +16,10 @@ import com.bankguru.RegisterPage;
 
 import ObjectPageJson.AbstractObJectJson;
 import commons.AbstractTest;
+import commons.ManageEnviroment.Environment;
 
 public class NewCustomer extends AbstractTest {
-
+	Environment urlEnvironment;
 	WebDriver driver;
 	String email, loginURL, usernameLogin, passwordLogin, emailUpdate;
 	private LoginPage loginPage;
@@ -28,13 +30,17 @@ public class NewCustomer extends AbstractTest {
 	String pathData = "/Data/";
 	String userPath = System.getProperty("user.dir");
 
-	@Parameters({ "browser", "url", "version", "dataJson" })
+	@Parameters({ "browser", "environment", "version", "dataJson" })
 	@BeforeClass
-	public void beforeClass(String browser, String url, String version, String dataJson) {
+	public void beforeClass(String browser, String environment, String version, String dataJson) {
+
+		ConfigFactory.setProperty("env", environment);
+		urlEnvironment = ConfigFactory.create(Environment.class);
+
 		String pathDataJson = userPath.concat(pathData).concat(dataJson);
 		data = getDataJson(pathDataJson);
 		log.info("----------OPEN BROWSER-----------");
-		driver = openMultiBrowser(browser, url, version);
+		driver = openMultiBrowser(browser, urlEnvironment.url(), version);
 		loginPage = PageFactory.getLoginPage(driver);
 		email = "automation" + randomEmail() + "@gmail.com";
 		emailUpdate = "testing" + randomEmail() + "@gmail.com";

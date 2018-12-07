@@ -1,5 +1,6 @@
 package com.bankguru.payment;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -18,9 +19,10 @@ import com.bankguru.WithDrawPage;
 
 import ObjectPageJson.AbstractObJectJson;
 import commons.AbstractTest;
+import commons.ManageEnviroment.Environment;
 
 public class Payment_01_MainWorkflow extends AbstractTest {
-
+	Environment urlEnvironment;
 	WebDriver driver;
 	String email, usernameCustomer, loginURL, usernameLogin, passwordLogin, emailUpdate, userID, accountID,
 			addressUpdate, cityUpdate, stateUpdate, PINUpdate, mobileNumberUpdate, accoutID, accountType, deposit,
@@ -44,13 +46,17 @@ public class Payment_01_MainWorkflow extends AbstractTest {
 	// private DeleteAccountPage deleteAccountPage;
 	// private DeleteCustomerPage deleteCustomerPage;
 
-	@Parameters({ "browser", "url", "version", "dataJson" })
+	@Parameters({ "browser", "environment", "version", "dataJson" })
 	@BeforeClass
-	public void beforeClass(String browser, String url, String version, String dataJson) {
+	public void beforeClass(String browser, String environment, String version, String dataJson) {
+
+		ConfigFactory.setProperty("env", environment);
+		urlEnvironment = ConfigFactory.create(Environment.class);
+
 		String pathDataJson = userPath.concat(pathData).concat(dataJson);
 		jsonData = getDataJson(pathDataJson);
 		log.info("----------OPEN BROWSER-----------");
-		driver = openMultiBrowser(browser, url, version);
+		driver = openMultiBrowser(browser, urlEnvironment.url(), version);
 		loginPage = PageFactory.getLoginPage(driver);
 		email = "automation" + randomEmail() + "@gmail.com";
 		emailUpdate = "testing" + randomEmail() + "@gmail.com";

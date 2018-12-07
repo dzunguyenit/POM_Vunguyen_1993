@@ -1,5 +1,6 @@
 package com.bankguru.customer;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -16,9 +17,10 @@ import com.bankguru.RegisterPage;
 
 import ObjectPageJson.AbstractObJectJson;
 import commons.AbstractTest;
+import commons.ManageEnviroment.Environment;
 
 public class EditCustomer extends AbstractTest {
-
+	Environment urlEnvironment;
 	WebDriver driver;
 	String email, loginURL, usernameLogin, passwordLogin, emailUpdate, userID;
 	private LoginPage loginPage;
@@ -30,13 +32,17 @@ public class EditCustomer extends AbstractTest {
 	String pathData = "/Data/";
 	String userPath = System.getProperty("user.dir");
 
-	@Parameters({ "browser", "url", "version", "dataJson" })
+	@Parameters({ "browser", "environment", "version", "dataJson" })
 	@BeforeClass
-	public void beforeClass(String browser, String url, String version, String dataJson) {
+	public void beforeClass(String browser, String environment, String version, String dataJson) {
+
+		ConfigFactory.setProperty("env", environment);
+		urlEnvironment = ConfigFactory.create(Environment.class);
+
 		String pathDataJson = userPath.concat(pathData).concat(dataJson);
 		data = getDataJson(pathDataJson);
 		log.info("----------OPEN BROWSER-----------");
-		driver = openMultiBrowser(browser, url, version);
+		driver = openMultiBrowser(browser, urlEnvironment.url(), version);
 		loginPage = PageFactory.getLoginPage(driver);
 		email = "automation" + randomEmail() + "@gmail.com";
 		emailUpdate = "testing" + randomEmail() + "@gmail.com";
@@ -308,8 +314,7 @@ public class EditCustomer extends AbstractTest {
 		log.info("Edit Customer_01 Step 03 - Click Submit To EditInfor");
 		editCustomerPage.clickSubmitToEditInfor();
 		log.info("Edit Customer_01 Step 04 - Enter Special Character Telephone Field");
-		editCustomerPage
-				.enterSpecialCharacterTelephoneField(data.editCustomer().getSpecialCharacterTelephoneUpdate());
+		editCustomerPage.enterSpecialCharacterTelephoneField(data.editCustomer().getSpecialCharacterTelephoneUpdate());
 		log.info("Edit Customer_01 Step 05 - Verify Text Telephone Error");
 		verifyEquals(data.editCustomer().getCannotSpecialCharacterMsg(), editCustomerPage.getTextTelephoneErr());
 	}

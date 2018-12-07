@@ -2,17 +2,18 @@
 <suite name="Suite" parallel="tests">
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	<test name="Payment, New Customer, Edit Customer on Chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="url" value="http://demo.guru99.com/v4/" />
+		<parameter name="environment" value="prod" />
 		<parameter name="version" value="2.43" />
 		<parameter name="dataJson" value="BankGuru.json" />
 		<classes>
-	<class name="com.bankguru.payment.Payment_01_MainWorkflow" />
-	<class name="com.bankguru.customer.NewCustomer" />
-	<class name="com.bankguru.customer.EditCustomer" />
+			<class name="com.bankguru.payment.Payment_01_MainWorkflow" />
+			<class name="com.bankguru.customer.NewCustomer" />
+			<class name="com.bankguru.customer.EditCustomer" />
 		</classes>
 	</test>
 	<!-- <test name="Payment, New Customer, Edit Customer on Firefox"> -->
