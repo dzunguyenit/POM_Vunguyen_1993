@@ -44,6 +44,7 @@ import com.sytner.UsedCarSearchSytner;
 
 public class AbstractPage {
 	private int timeouts = 20;
+	String jsColorBorderElement = "arguments[0].style='border: 1px solid; border-color: blue'";
 
 	// Web Browser
 	public void openUrl(WebDriver driver, String url) {
@@ -87,6 +88,7 @@ public class AbstractPage {
 	// Web Element
 	public void clickToElement(WebDriver driver, String locator) {
 		WebElement element = driver.findElement(By.xpath(locator));
+		((JavascriptExecutor) driver).executeScript(jsColorBorderElement, element);
 		element.click();
 	}
 
@@ -395,7 +397,7 @@ public class AbstractPage {
 	public void highlightElement(WebDriver driver, String locator) {
 		WebElement element = driver.findElement(By.xpath(locator));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].style.border='6px groove red'", element);
+		js.executeScript(jsColorBorderElement, element);
 	}
 
 	// Bonus

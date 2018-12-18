@@ -18,6 +18,6 @@
 	<classpathentry kind="lib" path="lib/json-simple-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/javax.json-api-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/javax.json-1.0.jar"/>
-	<classpathentry kind="lib" path="lib/owner-1.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/owner-1.0.8.jar" sourcepath="C:/Users/user/.m2/repository/org/aeonbits/owner/owner/1.0.8/owner-1.0.8-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

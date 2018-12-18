@@ -11,9 +11,9 @@
 		<parameter name="version" value="2.43" />
 		<parameter name="dataJson" value="BankGuru.json" />
 		<classes>
-			<class name="com.bankguru.payment.Payment_01_MainWorkflow" />
+			<!-- <class name="com.bankguru.payment.Payment_01_MainWorkflow" /> -->
 			<class name="com.bankguru.customer.NewCustomer" />
-			<class name="com.bankguru.customer.EditCustomer" />
+			<!-- <class name="com.bankguru.customer.EditCustomer" /> -->
 		</classes>
 	</test>
 	<!-- <test name="Payment, New Customer, Edit Customer on Firefox"> -->

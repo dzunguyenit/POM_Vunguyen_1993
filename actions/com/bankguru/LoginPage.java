@@ -32,16 +32,19 @@ public class LoginPage extends AbstractPage {
 
 	public void inputEmail(String username) {
 		waitForControlVisible(driver, LoginPageUI.EMAIL_TXT);
+		highlightElement(driver, LoginPageUI.EMAIL_TXT);
 		sendKeyToElement(driver, LoginPageUI.EMAIL_TXT, username);
 	}
 
 	public void inputPassword(String password) {
 		waitForControlVisible(driver, LoginPageUI.PASSWORD_TXT);
+		highlightElement(driver, LoginPageUI.PASSWORD_TXT);
 		sendKeyToElement(driver, LoginPageUI.PASSWORD_TXT, password);
 	}
 
 	public HomePage clickSubmitButton() {
 		waitForControlVisible(driver, LoginPageUI.LOGIN_BTN);
+		highlightElement(driver, LoginPageUI.LOGIN_BTN);
 		clickToElement(driver, LoginPageUI.LOGIN_BTN);
 		return PageFactory.getHomePage(driver);
 	}

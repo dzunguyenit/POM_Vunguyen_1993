@@ -25,11 +25,13 @@ public class RegisterPage extends AbstractPage {
 
 	public String getUserIDInfo() {
 		waitForControlVisible(driver, RegisterPageUI.USER_ID_TEXT);
+		highlightElement(driver, RegisterPageUI.USER_ID_TEXT);
 		return getTextElement(driver, RegisterPageUI.USER_ID_TEXT);
 	}
 
 	public String getPasswordIDInfo() {
 		waitForControlVisible(driver, RegisterPageUI.PASSWORD_ID_TEXT);
+		highlightElement(driver, RegisterPageUI.PASSWORD_ID_TEXT);
 		return getTextElement(driver, RegisterPageUI.PASSWORD_ID_TEXT);
 	}
 
